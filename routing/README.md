@@ -1,4 +1,6 @@
-- 1. # <ins>Exercise: Basic Routing in Next.js</ins>
+Markup : 1
+
+- ### <ins>Exercise: Basic Routing in Next.js</ins>
 
 #### Goal:
 
@@ -12,7 +14,9 @@ The goal of this exercise is to create a simple Next.js application with multipl
 
 3. Verify that you can navigate between the "about," and "contact" pages.
 
-- 2.  Exercise: Nested Routes in Next.js
+Markup : 2
+
+- ### <ins> Exercise: Nested Routes in Next.js</ins>
 
 #### Goal:
 
