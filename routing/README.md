@@ -1,4 +1,4 @@
-- 1) Exercise: Basic Routing in Next.js
+- 1. Exercise: Basic Routing in Next.js
 
 #### Goal:
 
