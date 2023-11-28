@@ -1,13 +1,12 @@
-import Link from "next/link";
 import React from "react";
 
-function Contact() {
+function AllProduct() {
   return (
     <div className=" min-h-screen space-x-6 items-center justify-between p-24">
-      <Link href="/">HOME</Link>
-      contact page
+      {" "}
+      (1220) products in the store
     </div>
   );
 }
 
-export default Contact;
+export default AllProduct;

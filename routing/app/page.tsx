@@ -6,6 +6,8 @@ export default function Home() {
     <main className=" min-h-screen space-x-6 items-center justify-between p-24">
       <Link href="/about">About us</Link>
       <Link href="/contact">Contact us</Link>
+      <Link href="/products/allproducts"> Go to ALL Products Route</Link>
+      <Link href="/products/specificproduct">Go to ALL Products Route</Link>
     </main>
   );
 }
