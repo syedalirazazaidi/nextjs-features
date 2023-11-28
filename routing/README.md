@@ -31,7 +31,7 @@ The goal of this exercise is to demonstrate understanding of how to create neste
 
 Markup : 3.
 
-- ### <ins> Linking and Navigation in Next.js </ins>
+- ### <ins> Exercise: Linking and Navigation in Next.js </ins>
 
 #### Goal:
 
@@ -51,7 +51,7 @@ The goal of this exercise is to practice using Next.js's `<Link>` component for 
 
 Markup : 4.
 
-- ### <ins> Using `useRouter` in Next.js </ins>
+- ### <ins> Exercise: Using `useRouter` in Next.js </ins>
 
 #### Goal:
 
@@ -68,3 +68,18 @@ The goal of this exercise is to practice using the `useRouter` hook in a Next.js
 4. Implement a programmatic navigation from "page1" to "page2" using the `useRouter` hook from Next. When the user clicks a button on "page1," they should be navigated to "page2."
 
 5. Verify that programmatic navigation from "page1" to "page2" works as expected, and that the route information is displayed on "page2."
+
+Markup : 5.
+
+- ### <ins> Exercise: Route Organization and Ignoring Routes in Next.js </ins>
+
+#### Goal:
+
+The goal of this exercise is to practice organizing routes using folders and excluding certain folders from being treated as routes in a Next.js application.
+
+#### Instructions:
+
+1. Create the "users" folder (but it shouldn't be a route).
+2. Inside the "users" folder create a "userinfo" route.
+3. Inside the "app" directory create another folder name "auth" but it (shouldn't be a route).
+4. Inside the "auth" folder create a login route which will only print (Please Login To See The Content)
