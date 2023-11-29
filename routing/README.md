@@ -92,7 +92,7 @@ Markup : 6.
 
 The goal of this exercise is to practice to create dynamic route
 
-Markup : 6.
+Markup : 7.
 
 - ### <ins> Exercise: Handling URL Segments in Next.js <ins>
 
