@@ -1,8 +1,6 @@
 "use client";
 
 const Project = ({ params }: { params: { all: string[] } }) => {
-  console.log(params.all);
-
   return (
     <div>
       <h1>Project {params.all}</h1> <br />
