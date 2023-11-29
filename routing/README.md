@@ -83,3 +83,12 @@ The goal of this exercise is to practice organizing routes using folders and exc
 2. Inside the "users" folder create a "userinfo" route.
 3. Inside the "app" directory create another folder name "auth" but it (shouldn't be a route).
 4. Inside the "auth" folder create a login route which will only print (Please Login To See The Content)
+
+Markup : 6.
+
+- ### <ins> Exercise: Create Dynamic Route in Next.js </ins>
+
+#### Goal:
+
+The goal of this exercise is to practice to create dynamic route
+

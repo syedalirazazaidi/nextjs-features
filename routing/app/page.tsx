@@ -8,12 +8,19 @@ export default function Home() {
 
   return (
     <main className=" min-h-screen space-x-6 items-center justify-between p-24">
-      <h2>route using Link</h2>
+      <h2>Dynamically Route</h2>
+
+      <Link href="/dynamicroute/userlist/1">user 1</Link>
+      <Link href="/dynamicroute/userlist/2">user 2</Link>
+      <Link href="/dynamicroute/userlist/3">user 3</Link>
+      <Link href="/dynamicroute/userlist/4">user 4</Link>
+
+      {/* <h2>route using Link</h2> */}
       {/* <Link href="/about">About us</Link>
       <Link href="/contact">Contact us</Link>
       <Link href="/products/allproducts"> Go to ALL Products Route</Link>
       <Link href="/products/specificproduct">Go to ALL Products Route</Link> */}
-      <h2>Programatically Route</h2>
+      {/* <h2>Programatically Route</h2>
       <div className=" bg-gray-200 flex space-x-10 w-[120px]">
         <hr />
         <div
@@ -28,7 +35,7 @@ export default function Home() {
         >
           Write
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
