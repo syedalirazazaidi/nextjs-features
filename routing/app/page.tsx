@@ -10,10 +10,14 @@ export default function Home() {
     <main className=" min-h-screen space-x-6 items-center justify-between p-24">
       <h2>Dynamically Route</h2>
 
-      <Link href="/dynamicroute/userlist/1">user 1</Link>
+      {/* <Link href="/dynamicroute/userlist/1">user 1</Link>
       <Link href="/dynamicroute/userlist/2">user 2</Link>
       <Link href="/dynamicroute/userlist/3">user 3</Link>
-      <Link href="/dynamicroute/userlist/4">user 4</Link>
+      <Link href="/dynamicroute/userlist/4">user 4</Link> */}
+      <Link href="/products/1">user 1</Link>
+      <Link href="/products/2">user 2</Link>
+      <Link href="/products/3">user 3</Link>
+      <Link href="/products/4">user 4</Link>
 
       {/* <h2>route using Link</h2> */}
       {/* <Link href="/about">About us</Link>
