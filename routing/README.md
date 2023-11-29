@@ -114,7 +114,7 @@ The goal of this exercise is to practice working with URL segments to create dyn
 
 6. Verify that you can access dynamic product pages with different IDs in the URL, and the page displays information based on the ID from the URL segment.
 
-Markup : 7.
+Markup : 8.
 
 - ### <ins> Exercise: Creating a Custom "Not Found" Page in Next.js <ins>
 
@@ -129,3 +129,22 @@ The goal of this exercise is to practice creating a custom "Not Found" (404) pag
 2. Customize the "404.js" page with a message or content to inform users that the page they are looking for does not exist.
 
 3. Verify that when accessing a non-existing route, users are redirected to the custom "Not Found" page (404.js) and see the message you provided.
+
+Markup : 9.
+
+- ### <ins> Exercise: Implementing Redirects in Next.js <ins>
+
+#### Goal:
+
+The goal of this exercise is to practice setting up and managing redirects in a Next.js application to enhance user experience and ensure proper page navigation.
+
+#### Instructions:
+
+1. In your Next.js project, create a custom error page named "404.js" in the "app" directory. This page will serve as the custom 404 error page for your application.
+
+2. Implement redirects for the following scenarios:
+
+- Create a redirection rule that redirects users from the route "/old-page" to the new page "/new-page."
+- Create a rule that redirects users from a non-existing route "/non-existing" to the custom 404 error page "404.js."
+
+3. Verify that the redirection from "/old-page" to "/new-page" works as expected, and that accessing a non-existing route redirects users to the custom 404 error page.
