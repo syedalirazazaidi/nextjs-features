@@ -5,7 +5,6 @@ const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({ subsets: ["latin"], weight: "500" });
 const montserrat = Montserrat({ subsets: ["latin"], weight: "500" });
 
-// Montserrat
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">

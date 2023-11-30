@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import React from "react";
 
 export default function Navbar() {
+  const pathname = usePathname();
   return (
     <nav className="flex justify-evenly items-center bg-gray-200 p-4 text-sm">
       <div className="div">
@@ -23,6 +25,17 @@ export default function Navbar() {
         {" "}
         <Link href="/login/loginuser">login user</Link>
       </div>
+      {pathname === "/login/loginuser" ? (
+        <div className="div">
+          {" "}
+          <Link href="/standardlayout">Standard layout</Link>
+        </div>
+      ) : (
+        <div className="div">
+          {" "}
+          <Link href="/alternatelayout">Alternate layout</Link>
+        </div>
+      )}
     </nav>
   );
 }
