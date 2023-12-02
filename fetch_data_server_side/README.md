@@ -8,7 +8,7 @@ The goal of this exercise is to practice server-side data fetching in a Next.js 
 
 2. Create a new route in the "app" directory, named "serverdatafetch"
 
-3. In the "serverdatafetch" page, use either fetch or axios to fetch the data from a publicly available API, such as the JSONPlaceholder API (https://jsonplaceholder.typicode.com).
+3. In the "serverdatafetch" page, use either fetch or axios to fetch the data from a publicly available API, such as the JSONPlaceholder API (https://dummyjson.com/products).
 
 4. Display the fetched data on the "serverdatafetch" route. For example, you can display a list of posts, users, or any other relevant data from the API.
 
