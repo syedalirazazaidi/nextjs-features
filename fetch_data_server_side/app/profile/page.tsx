@@ -1,17 +1,5 @@
 import React from "react";
 
-// export default function Profile() {
-//   async function getData() {
-//     const res = await fetch("https://api.example.com/...");
-//     if (!res.ok) {
-//       throw new Error("Failed to fetch data");
-//     }
-//     return res.json();
-//   }
-//   const data = await getData();
-//   return <div>A Profile page</div>;
-// }
-
 async function getData() {
   const res = await fetch("https://dummyjson.com/products");
   if (!res.ok) {
