@@ -9,7 +9,6 @@ async function getData() {
 }
 export default async function Profile() {
   const data = await getData();
-
   return (
     <main>
       <div className="bg-gray-100 ">
