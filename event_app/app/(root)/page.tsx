@@ -37,8 +37,7 @@ export default function Home() {
         </h2>
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
-          search category 
-          filter
+          search category filter
           {/* <Search />
           <CategoryFilter /> */}
         </div>

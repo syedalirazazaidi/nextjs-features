@@ -16,7 +16,6 @@ export default function Header() {
             height={20}
             alt="evently logo"
           />
-          
         </Link>
         <SignedIn>
           <nav className="hidden md:flex  md:flex-between   w-full max-w-xs">
